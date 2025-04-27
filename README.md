@@ -12,3 +12,4 @@ This project is a clone of a landing page design for a solar company, created as
 
 The original design can be found on Figma:
 [Solar Company Landing Page](https://www.figma.com/design/xlESOD0VgwJNtIIe35nQ9Y/Landing-page-for-Solar-comapny--Community-?node-id=1-2&t=BWsibodW3ahOZAPf-0)
+[live demo](https://admirable-centaur-4bd19d.netlify.app/)
