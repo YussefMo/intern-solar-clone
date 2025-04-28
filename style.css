@@ -621,7 +621,7 @@ footer .main-1 {
 }
 
 footer .main-1 div:nth-child(2) {
-	margin-top: 44px;
+	margin: 44px 80px 0 0;
 }
 
 footer .main-1 div:nth-child(2) p {
@@ -661,13 +661,12 @@ footer .main-2 {
 	display: flex;
 	justify-content: space-between;
 	color: #92989f;
-	font-size: 12px;
+	font-size: 18px;
 }
 
 footer .main-2 p:nth-child(1) {
 	display: flex;
 	gap: 20px;
-	font-size: 12px;
 }
 
 @media screen and (max-width: 1420px) {
@@ -860,8 +859,14 @@ footer .main-2 p:nth-child(1) {
 	section:nth-child(9) p {
 		width: 100%;
 	}
-	footer .main-2 p:nth-child(1) {
-		flex-flow: column wrap;
+	footer .main-2 {
+		align-content: center;
+		justify-items: center;
+		text-align: center;
+		font-size: 12px;
+	}
+	footer .main-2 p {
+		font-size: 12px;
 	}
 }
 
@@ -902,5 +907,8 @@ footer .main-2 p:nth-child(1) {
 	}
 	section:nth-child(4) {
 		background: url(./public/8111.png) no-repeat left;
+	}
+	footer hr {
+		margin: 80px 0 52px 0;
 	}
 }
